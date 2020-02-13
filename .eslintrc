@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard",
+
+  ],
+  "plugins": [
+    "better-styled-components",
+    "react",
+    "standard",
+    "react-hooks",
+    "import"
+  ],
+  "rules": {
+    "func-names": ["error", "never"],
+    "better-styled-components/sort-declarations-alphabetically": 2,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off"
+  }
+}
